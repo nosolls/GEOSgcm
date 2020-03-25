@@ -49,7 +49,7 @@ FMS:
 GEOSgcm_GridComp:
   local: ./src/Components/@GEOSgcm_GridComp
   remote: ../GEOSgcm_GridComp.git
-  tag: v1.8.0
+  branch: feature/mathomp4/sanAkel-MOM6-rebase-to-develop-2020Mar25
   develop: develop
 
 FVdycoreCubed_GridComp:
@@ -75,6 +75,13 @@ mom:
   remote: ../MOM5.git
   tag: geos/v1.0.1
   develop: geos5
+
+mom6:
+  local: ./src/Components/@GEOSgcm_GridComp/GEOSogcm_GridComp/GEOSocean_GridComp/GuestOcean_GridComp/MOM6_GEOSPlug/@mom6
+  remote: ../MOM6.git
+  branch: geos
+  develop: geos
+  recurse_submodules: True
 
 GEOSgcm_App:
   local: ./src/Applications/@GEOSgcm_App
