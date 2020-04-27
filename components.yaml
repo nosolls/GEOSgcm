@@ -1,7 +1,7 @@
 env:
   local: ./@env
   remote: ../ESMA_env.git
-  tag: v2.1.1
+  tag: v2.1.2
   develop: master
 
 cmake:
@@ -49,7 +49,7 @@ FMS:
 GEOSgcm_GridComp:
   local: ./src/Components/@GEOSgcm_GridComp
   remote: ../GEOSgcm_GridComp.git
-  tag: v1.8.3
+  branch: feature/mathomp4/add-jbacmeis-gwd-DRAFT
   develop: develop
 
 FVdycoreCubed_GridComp:
