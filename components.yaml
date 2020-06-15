@@ -81,6 +81,7 @@ mom6:
   remote: ../MOM6.git
   branch: feature/yury/mom6
   develop: feature/yury/mom6
+  recurse_submodules: True
 
 GEOSgcm_App:
   local: ./src/Applications/@GEOSgcm_App
