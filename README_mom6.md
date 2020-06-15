@@ -8,7 +8,8 @@
 git clone git@github.com:GEOS-ESM/GEOSgcm.git
 cd GEOSgcm
 git checkout feature/yury/mom6
-checkout_externals
+mepo init
+mepo clone
 ./parallel_build.csh
 ```
 
